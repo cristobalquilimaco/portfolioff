@@ -1,0 +1,68 @@
+import React, { useState, useEffect } from 'react';
+import banner from "/public/images/banner.png";
+import "../components/styles/home.css";
+
+
+
+const typeWriterEffect = (text, setDisplayText) => {
+  let index = 0;
+  const interval = setInterval(() => {
+    if (index < text.length) {
+      setDisplayText((prevDisplayText) => prevDisplayText + text[index]);
+      index++;
+    } else {
+      clearInterval(interval);
+      setTimeout(() => {
+        setDisplayText('');
+        index = 0;
+        typeWriterEffect(text, setDisplayText);
+      }, 5000); 
+    }
+  }, 120);
+
+  return () => {
+    clearInterval(interval);
+  };
+};
+
+
+const Home = () => {
+  const text = 'Cristobal Quilimaco';
+  const [displayText, setDisplayText] = useState('');
+
+  useEffect(() => {
+    const cleanup = typeWriterEffect(text, setDisplayText);
+    return cleanup;
+  }, []); 
+
+  return (
+    <div className='principal_home'>
+      <div className='banner_principal'>
+        <div className="neon-bar"></div>
+        <div className="neon-bar"></div>
+        <div className="neon-bar"></div>
+        
+        <img className="banner" src={banner} alt="" />
+      </div>
+      <div className='article'>
+      <div className='information'>
+          {displayText === text ? (
+            <h1 className='my_name'>{displayText}</h1>
+          ) : (
+            <h1 className='my_name'>{text.slice(0, displayText.length)}</h1>
+          )}
+          <h2 className='developertext'>Desarrollador De Front End</h2>
+          <p className='description'>
+          "Apasionado del desarrollo frontend, con 28 años de edad, convirtiendo ideas en experiencias digitales impactantes. Busco llevar la usabilidad y la innovación al siguiente nivel. ¡Listo para enfrentar nuevos desafíos juntos! 💻🚀 #FrontendDev"
+          </p>
+          <div className='btn_principal btn-information'>
+            <button className='btn btn_home2'>More about me</button>
+            <button className='btn btn_home1'>Portfolio</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Home;

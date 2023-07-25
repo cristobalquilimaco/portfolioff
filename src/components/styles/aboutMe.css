@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+  --color-box-menu: #333333;
+  --color-button:#222222e8;
+  --color-icon: #1f54e6;
+  --color-x: #FFFFFF ;
+  --color-hover: #acac30;
+  --html-color:#FF5733;
+  --javascript-color: #F0DB4F;
+  --react-color: #61DBFB;
+  --css-color: #0F5298;
+  --github-color: #000000;
+
+
+}
+
+p,h1,h2,h3,h4,h5{
+    color: var(--color-x);
+}
+
+.principal_about{
+
+    background-image: radial-gradient(circle at 35.28% 58.5%, #2a2a29 0, #0d0b16 50%, #000000 100%);
+  
+}
+
+.text_info{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 2rem;
+   margin: 1rem;
+
+}
+
+.title_subtitle{
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-top: 50px;
+}
+
+
+.subtitle{
+    color: var(--color-x);
+    font-size: 20px
+}
+
+.about__tt{
+
+font-size: 50px;
+    
+
+
+}
+
+.color_tt{
+color: var(--color-hover);
+}
+
+
+
+.info_me{
+    text-align: center;
+
+}
+
+
+.title_about{
+  flex-wrap: wrap;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 1rem;
+}
+
+.information__me{
+
+display: flex;
+flex-direction: column;
+
+gap: 0.3rem;
+}
+
+.information__me p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    
+
+  
+  }
+  
+  .information__me p span {
+    font-weight: normal;
+    display: flex;
+  }
+
+
+  .btn_download{
+    width: 250px;
+    background-color: var(--color-icon);
+    border-radius: 50px;
+    border: solid var(--color-hover) 1px;
+    z-index: 7;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+
+  .btn_download:hover{
+    background-color: transparent; /* Cambiar a color transparente al pasar el cursor */
+    background-image: linear-gradient(to right, #c07c16 0%, transparent 100%); /* Crear un degradado hacia la derecha */
+    background-size: 200% 100%; /* Asegurarse de que el degradado cubra todo el ancho del botón */
+    background-position: right; /* Iniciar el degradado desde la derecha */
+    animation: slide-out-btn 1s forwards; /* Animación para desvanecer el color */
+  color:#FFFFFF;
+  z-index: 5;
+  
+  }  
+
+  .bx-download{
+color: var(--color-x);
+
+  }
+
+
+  .information_about{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2rem;
+    margin: 1rem;
+  }
+
+
+
+  .experience_text{
+font-size: 22px;
+margin-bottom: 1rem;
+  }
+
+  .work_information p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  
+  }
+
+
+  .date{
+display: flex;
+  }
+
+  .years_work{
+    font-size: 14px;
+  }
+
+
+  .skills{
+    width: 100%;
+  }
+
+.skills--info{
+display: flex;
+justify-content: center;
+margin-top: 3rem;
+gap: 1rem;
+
+  }
+
+
+  .skills h5{
+  font-size: 40px;
+  text-align: center;
+  }
+
+  .skills_name{
+margin-left: 1rem;
+margin-right: 1rem;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 2rem;
+align-items: center;
+padding-bottom: 3rem;
+justify-content: space-evenly;
+width: 800px;
+
+  }
+
+  .skill_information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+  }
+
+
+ 
+
+
+.skill_information i{
+  font-size: 50px;
+  transition: transform 0.3s ease;
+  margin-top: 1rem;
+  
+}
+
+.skill_information i:hover{
+  font-size: 50px;
+  transform: translateY(-10px);
+}
+
+.lg{
+  width: 140px;
+  border-radius: 20px;
+  border: solid 1px var(--color-hover);
+}
+
+.lg:hover{
+  background-color: var(--color-hover);
+  color: var(--github-color);
+  border: solid 1px var(--color-x); 
+}
+
+
+
+.skill_information .bxl-html5:hover{
+color: var(--html-color);
+}
+
+.html:hover{
+  background-color: var(--html-color);
+}
+
+.skill_information .bxl-javascript:hover{
+color: var(--javascript-color);
+}
+
+.skill_information .bxl-css3:hover{
+color: var(--css-color);
+}
+
+.skill_information .bxl-react:hover{
+color: var(--react-color);
+}
+
+.skill_information .bxl-github:hover{
+color: var(--color-x);
+}
+
+.skill_information .bxl-wordpress:hover{
+color: var(--css-color);
+}
+
+.skill_information .bxs-pen:hover{
+color: #FF5733;
+}
+
+.skill_information .bxs-photo-album:hover{
+color: #0F5298;
+}
+
+
+
+/* ------------------MEDIA QUERTY---------------- */
+
+@media (min-width: 700px) {
+
+
+
+
+  .banner_about{
+width: 100%;
+
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+align-items: center;
+
+  }
+
+  .line{
+width: 1200px;
+background-color: var(--color-hover);
+height: 1px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 3rem;
+  }
+
+.information_about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+
+}
+
+.line_down{
+  position: absolute;
+  width: 1px;
+  height: 400px;
+  background-color: var(--color-hover);
+  overflow: hidden;
+}
+
+
+
+}
