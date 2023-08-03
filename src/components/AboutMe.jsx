@@ -45,91 +45,83 @@ const AboutMe = () => {
         <div className='work_information'>
             <div className='date'>
             <i className='bx bx-play'></i>
-        <p className='years_work'>2000- 2000</p>
+        <p className='years_work'>2022- 2023</p>
             </div>
         <div className='posts'>
-        <p>Cargo</p>
-            <p>Informacion del cargo</p>
+        <p className='company'>Trendix</p>
+        <p className='infocompany'>Operador de procesos publicitarios</p>
+        <p className='infocompany'>Procesos de fabricación de artículos publicitarios destinados a la exhibicion y promoción de marcas y productos</p>
         </div>
 
         </div>
         <div className='work_information'>
             <div className='date'>
             <i className='bx bx-play'></i>
-        <p className='years_work'>2000- 2000</p>
+        <p className='years_work'>2022- 2022</p>
             </div>
         <div className='posts'>
-        <p>Cargo</p>
-            <p>Informacion del cargo</p>
+        <p className='company'>Almacontact</p>
+        <p className='infocompany'>Ejecutivo de atencion al cliente</p>
+            <p className='infocompany'>Atención al cliente y ventas de productos y servicios de telefonía fija, movil e internet de comcel colombia</p>
         </div>
 
         </div>
-        <div className='work_information'>
-            <div className='date'>
-            <i className='bx bx-play'></i>
-        <p className='years_work'>2000- 2000</p>
-            </div>
-        <div className='posts'>
-        <p>Cargo</p>
-            <p>Informacion del cargo</p>
-        </div>
-
-        </div>
+       
         </div>
         <div className='education'>
             <h1 className='experience_text'>EDUCACIÓN</h1>
             <div className='work_information'>
             <div className='date'>
             <i className='bx bx-play'></i>
-        <p className='years_work'>2000- 2000</p>
+        <p className='years_work'>2023- 2023</p>
             </div>
         <div className='posts'>
-        <p>Cargo</p>
-            <p>Informacion del cargo</p>
+        <p className='company'>Academlo</p>
+            <p>Desarrollador web Full Stack</p>
         </div>
 
         </div>
         <div className='work_information'>
             <div className='date'>
             <i className='bx bx-play'></i>
-        <p className='years_work'>2000- 2000</p>
+        <p className='years_work'>2022- 2022</p>
             </div>
         <div className='posts'>
-        <p>Cargo</p>
-            <p>Informacion del cargo</p>
+        <p className='company'>Platzi</p>
+            <p>Community Manager</p>
         </div>
 
         </div>
         <div className='work_information'>
             <div className='date'>
             <i className='bx bx-play'></i>
-        <p className='years_work'>2000- 2000</p>
+        <p className='years_work'>2022- 2022</p>
             </div>
         <div className='posts'>
-        <p>Cargo</p>
-            <p>Informacion del cargo</p>
+        <p className='company'>Platzi</p>
+            <p>Introduccion a la terminal y linea de comandos</p>
         </div>
 
         </div>
         <div className='work_information'>
             <div className='date'>
             <i className='bx bx-play'></i>
-        <p className='years_work'>2000- 2000</p>
+        <p className='years_work'>2022- 2022</p>
             </div>
         <div className='posts'>
-        <p>Cargo</p>
-            <p>Informacion del cargo</p>
+        <p className='company'>Platzi</p>
+            <p>Portugués cotidiano</p>
         </div>
 
         </div>
         <div className='work_information'>
             <div className='date'>
             <i className='bx bx-play'></i>
-        <p className='years_work'>2000- 2000</p>
+        <p className='years_work'>2020- 2020</p>
             </div>
         <div className='posts'>
-        <p>Cargo</p>
-            <p>Informacion del cargo</p>
+        <p className='company'>Politecnico de Colombia</p>
+            <p>Community Management</p>
         </div>
 
         </div>
