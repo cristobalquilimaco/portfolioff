@@ -68,7 +68,8 @@ const AboutMe = () => {
         </div>
        
         </div>
-        <div className='education'>
+        <div className='
+        '>
             <h1 className='experience_text'>EDUCACIÓN</h1>
             <div className='work_information'>
             <div className='date'>

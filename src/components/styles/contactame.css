@@ -1,0 +1,26 @@
+.principal_contact{
+    background-image: radial-gradient(circle at 35.28% 58.5%, #2a2a29 0, #0d0b16 50%, #000000 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* FORMULARIO */
+
+.form_contact{
+
+}
+
+.about__ttt{
+    margin-top: 50px;
+    font-size: 40px
+}
+
+.space{
+    border: 1px solid white;
+}
+
+.text{
+    color: blue;
+}
+
