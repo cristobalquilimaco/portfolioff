@@ -11,11 +11,11 @@ const Contactame = () => {
             </div>
             <section className='contacme_with_form'>
       
-                <ul>
-  <li><i className='bx bxl-whatsapp'></i>Este es mi whatsapp</li>
-  <li><i className='bx bx-envelope' ></i>Este es Correo</li>
-  <li><i className='bx bxl-instagram' ></i>Este es mi instagram</li>
-  <li><i className='bx bx-world' ></i>Este es netlify</li>
+                <ul className='info_contact_icon'>
+  <li><i className='bx bxl-whatsapp'></i><p>Este es mi whatsapp</p></li>
+  <li><i className='bx bx-envelope' ></i><p>Este es mi whatsapp</p></li>
+  <li><i className='bx bxl-instagram' ></i><p>Este es mi whatsapp</p></li>
+  <li><i className='bx bx-world' ></i><p>Este es mi whatsapp</p></li>
                 </ul>
                 <form className='form_contact' action="">
                 <ul className='list_form'>
@@ -29,10 +29,12 @@ const Contactame = () => {
     </li>
     <li className='form_class'>
       <label className='text' for="msg">Mensaje:</label>
-      <textarea className='space' id="msg" name="user_message"></textarea>
+      <input className='space space_text' type="text" id="msg" name="text_area" />
+     
     </li>
-    <button className='btn_download'><i className='bx bx-mail-send' ></i></button>
+    
   </ul>
+  <button className='btn_download'><i className='bx bx-mail-send' ></i></button>
                 </form>
             </section>
 
