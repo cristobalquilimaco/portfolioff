@@ -68,6 +68,41 @@ color: var(--color-hover);
 
 }
 
+.bx-rocket {
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 0 10px transparent;
+  
+}
+
+@keyframes fly_rocket {
+
+  0% {
+    transform: translate(0, 0);
+    opacity: 1; 
+  }
+
+  50%{
+    transform: translate(400%, -400%) rotate(-90deg);
+    color: var(--color-x); 
+
+}
+
+  100% {
+    transform: translate(-600%, -700%) rotate(-180deg); 
+    opacity: 0; 
+  }
+}
+
+
+.bx-rocket {
+  animation: fly_rocket 3s ease-in-out infinite;
+}
+
 
 .title_about{
   flex-wrap: wrap;
@@ -111,6 +146,14 @@ gap: 0.3rem;
     height: 50px;
     cursor: pointer;
     margin-top: 1rem;
+    color: var(--color-x);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    gap: 1rem;
+
   }
 
   .btn_download:hover{
@@ -356,6 +399,8 @@ margin: 3rem;
   background-color: var(--color-hover);
   overflow: hidden;
 }
+
+
 
 
 

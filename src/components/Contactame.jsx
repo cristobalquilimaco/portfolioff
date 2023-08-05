@@ -12,10 +12,12 @@ const Contactame = () => {
             <section className='contacme_with_form'>
       
                 <ul className='info_contact_icon'>
-  <li><i className='bx bxl-whatsapp'></i><p>Este es mi whatsapp</p></li>
+  <li><i className='bx bxl-whatsapp'></i><p>Whatsapp</p></li>
   <li><i className='bx bx-envelope' ></i><p>Este es mi whatsapp</p></li>
-  <li><i className='bx bxl-instagram' ></i><p>Este es mi whatsapp</p></li>
-  <li><i className='bx bx-world' ></i><p>Este es mi whatsapp</p></li>
+  <li><i className='bx bxl-instagram' ></i><p>Instagram</p></li>
+  <li><i className='bx bx-world' ></i><p>Netlify</p></li>
+  <li><i class='bx bxl-linkedin' ></i><p>Linkedin</p></li>
+  <li><i class='bx bxl-github'></i><p>GitHub</p></li>
                 </ul>
                 <form className='form_contact' action="">
                 <ul className='list_form'>

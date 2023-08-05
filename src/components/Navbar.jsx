@@ -44,7 +44,7 @@ const Navbar = () => {
    
   </div>
  <div className="box__menu"> 
- <Link to="/contactame" onClick={updateMenu} ><li><i className='bx bxs-briefcase'><span className="span_font">Contactame</span></i></li></Link></div>
+ <Link to="/contactame" onClick={updateMenu} ><li><i className='bx bxs-contact'><span className="span_font">Contactame</span></i></li></Link></div>
 
    
   </ul>

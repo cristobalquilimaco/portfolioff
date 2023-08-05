@@ -4,6 +4,7 @@ import "../components/styles/home.css";
 
 
 
+
 const typeWriterEffect = (text, setDisplayText) => {
   let index = 0;
   const interval = setInterval(() => {
@@ -37,6 +38,7 @@ const Home = () => {
 
   return (
     <div className='principal_home'>
+
       <div className='banner_principal'>
         <div className="neon-bar"></div>
         <div className="neon-bar"></div>
@@ -61,7 +63,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+
     </div>
+    
   );
 };
 

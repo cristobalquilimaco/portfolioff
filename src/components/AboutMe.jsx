@@ -6,28 +6,34 @@ import "../components/styles/aboutMe.css"
 const AboutMe = () => {
   return (
     <>
+    
       <div className='principal_about'>
+
     <section className='title_about'>
         <div className='text_info'>
             <div className='title_subtitle'>
             <h1 className='about__tt'>ABOUT <span className='color_tt'>ME</span></h1>
- <h2 className='subtitle'>Soy desarrolador frontend</h2>
+ <h2 className='subtitle'>Soy desarrolador web Full Stack dispuesto a trabajar en equipo manteniendo una excelente comunicación y etica, trabajando con una gran motivación y dispuesto a adaptarme a los cambios</h2>
             </div>
             <article className='banner_about'>
             <div>
     <img src={images.banner} alt="" />
+            <i className='bx bx-rocket' ></i>
+            <i className='bx bx-rocket' ></i>
+            <i className='bx bx-rocket' ></i>
     </div>
+    
     <div className='information__me'>
 <p>Nombre <span>Cristobal</span></p>
 <p>Apellido <span>Quilimaco</span></p>
 <p>Fecha de Nacimiento  <span>14 de Junio 1994</span></p>
 <p>Nacionalidad <span>Venezolano</span></p>
 <p>Residenicia <span>Bogota Colombia</span></p>
-<p>Idiomas <span>Español, Portugues</span></p>
+<p>Idiomas <span>Español - Nativo, Portugues B2, Ingles - A2</span></p>
 <p>Telefono <span>+571234567</span></p>
 <p>Email <span>quilimacox1@gmail.com</span></p>
 <p>Skype <span>quilimacox1</span></p>
-<button className='btn_download'><i className='bx bx-download'></i></button>
+<button className='btn_download'><i className='bx bx-download'></i>Descargar CV</button>
  </div>
             </article>
             <div className='line'></div>
@@ -166,9 +172,10 @@ const AboutMe = () => {
         </div>
         </div>
         </div>
-        
+ 
 
      </section>
+
     </div>
     </>
 
