@@ -20,10 +20,7 @@ p,h1,h2,h3,h4,h5{
 }
 
 .principal_about{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
     background-image: radial-gradient(circle at 35.28% 58.5%, #2a2a29 0, #0d0b16 50%, #000000 100%);
 }
 
@@ -36,7 +33,7 @@ p,h1,h2,h3,h4,h5{
    gap: 2rem;
    margin: 1rem;
    animation: slide-out 1s forwards;
-   width: 400px;
+
 
 }
 
@@ -44,7 +41,7 @@ p,h1,h2,h3,h4,h5{
 display: flex;
 flex-direction: column;
 text-align: center;
-width: 350px;
+
 justify-content: center;
 align-items: center;
 
@@ -54,12 +51,12 @@ align-items: center;
 .subtitle{
     color: var(--color-x);
     font-size: 20px;
-    width: 350px;
+
     background-color: red;
 }
 
 .about__tt{
-width: 400px;
+
 font-size: 50px;
 background-color: red;
 
@@ -135,7 +132,6 @@ gap: 0.3rem;
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    width: 400px;
 
   
   }
@@ -143,7 +139,6 @@ gap: 0.3rem;
   .information__me p span {
     font-weight: normal;
     display: flex;
-    background-color: red;
   }
 
 
