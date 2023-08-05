@@ -4,7 +4,8 @@ import "../components/styles/contactame.css"
 
 const Contactame = () => {
   return (
-    <div className='principal_contact'>
+    <>
+        <div className='principal_contact'>
                     <div className='title_subtitle'>
             <h1 className='about__ttt'>CONTACTA<span className='color_tt'>ME</span></h1>
  <h2 className='subtitle'>Aqui te dejo mis medios de contacto para que hablemos</h2>
@@ -13,7 +14,7 @@ const Contactame = () => {
       
                 <ul className='info_contact_icon'>
   <li><i className='bx bxl-whatsapp'></i><p>Whatsapp</p></li>
-  <li><i className='bx bx-envelope' ></i><p>Este es mi whatsapp</p></li>
+  <li><i className='bx bx-envelope' ></i><p>Gmail</p></li>
   <li><i className='bx bxl-instagram' ></i><p>Instagram</p></li>
   <li><i className='bx bx-world' ></i><p>Netlify</p></li>
   <li><i class='bx bxl-linkedin' ></i><p>Linkedin</p></li>
@@ -41,6 +42,8 @@ const Contactame = () => {
             </section>
 
     </div>
+    </>
+
   )
 }
 

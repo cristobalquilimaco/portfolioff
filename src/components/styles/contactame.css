@@ -6,6 +6,11 @@ height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    
+}
+
+.title_subtitle{
+    animation: slide-u 2s;
 }
 
 .contacme_with_form{
@@ -20,7 +25,8 @@ height: 100vh;
     border-radius: 10px;
     max-width: 900px;
     min-width: 350px;
-    animation: borderBrill 2s infinite;
+    animation: borderBrill 2s infinite, slide-out 1s forwards;;
+    
 }
 
 @keyframes borderBrill {

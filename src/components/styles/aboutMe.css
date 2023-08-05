@@ -20,9 +20,7 @@ p,h1,h2,h3,h4,h5{
 }
 
 .principal_about{
-
     background-image: radial-gradient(circle at 35.28% 58.5%, #2a2a29 0, #0d0b16 50%, #000000 100%);
-  
 }
 
 .text_info{
@@ -33,6 +31,7 @@ p,h1,h2,h3,h4,h5{
    flex-wrap: wrap;
    gap: 2rem;
    margin: 1rem;
+   animation: slide-out 1s forwards;
 
 }
 
@@ -157,11 +156,11 @@ gap: 0.3rem;
   }
 
   .btn_download:hover{
-    background-color: transparent; /* Cambiar a color transparente al pasar el cursor */
-    background-image: linear-gradient(to right, #c07c16 0%, transparent 100%); /* Crear un degradado hacia la derecha */
-    background-size: 200% 100%; /* Asegurarse de que el degradado cubra todo el ancho del botón */
-    background-position: right; /* Iniciar el degradado desde la derecha */
-    animation: slide-out-btn 1s forwards; /* Animación para desvanecer el color */
+    background-color: transparent;
+    background-image: linear-gradient(to right, #c07c16 0%, transparent 100%); 
+    background-size: 200% 100%;
+    background-position: right; 
+    animation: slide-out-btn 1s forwards; 
   color:#FFFFFF;
   z-index: 5;
   

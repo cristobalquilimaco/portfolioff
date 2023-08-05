@@ -175,29 +175,15 @@ color:#FFFFFF;
 @keyframes slide-u {
   from {
     opacity: 0;
-    transform: translateX(0);
+    transform: translateX(-40%);
   }
-  to {
+  to{
     opacity: 1;
-    transform: translateX(40%);
+    transform: translateX(0);
   }
 }
 
   @media (min-width: 700px){
-    .neon-circle {
- 
-      position: absolute;
-      top: 40%;
-      left: 27%;
-      transform: translate(-50%, -50%);
-      width: 450px;
-      height: 450px;
-      border-radius: 50%;
-      border: 2px solid rgb(214, 211, 42);
-      box-shadow: 0 0 5px rgb(221, 218, 29), 0 0 5px rgb(167, 207, 23), 0 0 8px rgb(173, 171, 13), 0 0 12px rgb(216, 205, 49);
-      animation: rotate-circle 5s infinite linear;
-      transform-origin: center;
-  }
 
   .principal_home{
     background-image: radial-gradient(circle at 35.28% 58.5%, #2a2a29 0, #0d0b16 50%, #000000 100%);

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import banner from "/public/images/banner.png";
 import "../components/styles/home.css";
+import { Link } from 'react-router-dom';
 
 
 
@@ -58,8 +59,8 @@ const Home = () => {
           "Apasionado del desarrollo frontend, con 28 años de edad, convirtiendo ideas en experiencias digitales impactantes. Busco llevar la usabilidad y la innovación al siguiente nivel. ¡Listo para enfrentar nuevos desafíos juntos! 💻🚀 #FrontendDev"
           </p>
           <div className='btn_principal btn-information'>
-            <button className='btn btn_home2'>More about me</button>
-            <button className='btn btn_home1'>Portfolio</button>
+            <Link to="/aboutme"><button className='btn btn_home2'>More about me</button></Link>
+            <Link to="/portfolio"><button className='btn btn_home1'>Portfolio</button></Link>
           </div>
         </div>
       </div>
