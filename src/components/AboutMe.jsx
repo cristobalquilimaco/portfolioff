@@ -12,8 +12,8 @@ const AboutMe = () => {
     <section className='title_about'>
         <div className='text_info'>
             <div className='title_subtitle'>
-            <h1 className='about__tt'>ABOUT <span className='color_tt'>ME</span></h1>
- <h2 className='subtitle'>Soy desarrolador web Full Stack dispuesto a trabajar en equipo manteniendo una excelente comunicación y etica, trabajando con una gran motivación y dispuesto a adaptarme a los cambios</h2>
+            <h1 className='about__tt'>SOBRE <span className='color_tt'> MÍ</span></h1>
+ <h2 className='subtitle'>Soy desarrollador web Full Stack dispuesto a trabajar en equipo, manteniendo una excelente comunicación y ética, trabajando con una gran motivación y dispuesto a adaptarme a los cambios</h2>
             </div>
             <article className='banner_about'>
             <div>
@@ -21,6 +21,7 @@ const AboutMe = () => {
             <i className='bx bx-rocket' ></i>
             <i className='bx bx-rocket' ></i>
             <i className='bx bx-rocket' ></i>
+            
     </div>
     
     <div className='information__me'>
@@ -30,7 +31,6 @@ const AboutMe = () => {
 <p>Nacionalidad <span>Venezolano</span></p>
 <p>Residenicia <span>Bogota Colombia</span></p>
 <p>Idiomas <span>Español - Nativo, Portugues B2, Ingles - A2</span></p>
-<p>Telefono <span>+571234567</span></p>
 <p>Email <span>quilimacox1@gmail.com</span></p>
 <p>Skype <span>quilimacox1</span></p>
 <button className='btn_download'><i className='bx bx-download'></i>Descargar CV</button>
@@ -67,64 +67,47 @@ const AboutMe = () => {
             </div>
         <div className='posts'>
         <p className='company'>Almacontact</p>
-        <p className='infocompany'>Ejecutivo de atencion al cliente</p>
-            <p className='infocompany'>Atención al cliente y ventas de productos y servicios de telefonía fija, movil e internet de comcel colombia</p>
+        <p className='infocompany'>Ejecutivo de atención al cliente</p>
+            <p className='infocompany'>Atención al cliente y ventas de productos y servicios de telefonía fija, móvil e internet de comcel Colombia.</p>
         </div>
 
         </div>
        
         </div>
-        <div className='
-        '>
+        <div className='exp_text_info'>
             <h1 className='experience_text'>EDUCACIÓN</h1>
             <div className='work_information'>
             <div className='date'>
             <i className='bx bx-play'></i>
-        <p className='years_work'>2023- 2023</p>
+        <p className='years_work'>07 - 2023</p>
             </div>
         <div className='posts'>
         <p className='company'>Academlo</p>
-            <p>Desarrollador web Full Stack</p>
+            <p className='certificate_info'>Desarrollador web Full Stack</p>
+            <p className='certificate_info'>Back-End Development with Node.js</p>
+            <p className='certificate_info'>Desarrollo de Aplicaciones Web con React</p>
+            <p className='certificate_info'>Fundamentos de Desarrollo Web</p>
         </div>
 
         </div>
         <div className='work_information'>
             <div className='date'>
             <i className='bx bx-play'></i>
-        <p className='years_work'>2022- 2022</p>
+        <p className='years_work'>05 - 2022</p>
             </div>
         <div className='posts'>
         <p className='company'>Platzi</p>
-            <p>Community Manager</p>
+            <p className='certificate_info'>Community Manager</p>
+            <p className='certificate_info'>Introduccion a la terminal y linea de comandos</p>
+            <p className='certificate_info'>Portugués cotidiano</p>
         </div>
 
         </div>
-        <div className='work_information'>
-            <div className='date'>
-            <i className='bx bx-play'></i>
-        <p className='years_work'>2022- 2022</p>
-            </div>
-        <div className='posts'>
-        <p className='company'>Platzi</p>
-            <p>Introduccion a la terminal y linea de comandos</p>
-        </div>
 
-        </div>
         <div className='work_information'>
             <div className='date'>
             <i className='bx bx-play'></i>
-        <p className='years_work'>2022- 2022</p>
-            </div>
-        <div className='posts'>
-        <p className='company'>Platzi</p>
-            <p>Portugués cotidiano</p>
-        </div>
-
-        </div>
-        <div className='work_information'>
-            <div className='date'>
-            <i className='bx bx-play'></i>
-        <p className='years_work'>2020- 2020</p>
+        <p className='years_work'>03 - 2020</p>
             </div>
         <div className='posts'>
         <p className='company'>Politecnico de Colombia</p>

@@ -207,6 +207,9 @@ gap: 0.2rem;
 
   }
 
+
+
+
   .work_information p{
     display: flex;
     text-align: center;
@@ -278,6 +281,7 @@ flex-direction: column;
 justify-content: flex-start;
 justify-items: flex-start;
 gap: 0.5rem;
+margin-bottom: 3rem;
   }
 
   .posts p{
@@ -287,8 +291,22 @@ gap: 0.5rem;
   .company{
  font-size: 22px;
  display: flex;
- 
   }
+  .certificate_info{
+    padding: 3px;
+    border: solid 1px transparent;
+  }
+
+  .certificate_info:hover{
+ background-color: var(--);
+ cursor: pointer;
+ color: var(--);
+ animation: borderBrill 2s infinite;
+ border: solid 1px var(--color-hover);
+ border-radius: 10px;
+  }
+
+
 
 
 
@@ -395,7 +413,7 @@ margin: 3rem;
 .line_down{
   position: absolute;
   width: 1px;
-  height: 400px;
+  height: 650px;
   background-color: var(--color-hover);
   overflow: hidden;
 }
