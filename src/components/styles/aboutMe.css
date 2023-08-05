@@ -51,14 +51,12 @@ align-items: center;
 .subtitle{
     color: var(--color-x);
     font-size: 20px;
-
-    background-color: red;
 }
 
 .about__tt{
 
 font-size: 50px;
-background-color: red;
+
 
 
 }
