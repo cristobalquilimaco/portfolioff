@@ -33,7 +33,7 @@ const AboutMe = () => {
 <p>Idiomas <span>Español - Nativo, Portugues B2, Ingles - A2</span></p>
 <p>Email <span>quilimacox1@gmail.com</span></p>
 <p>Skype <span>quilimacox1</span></p>
-<button className='btn_download'><i className='bx bx-download'></i>Descargar CV</button>
+<a href={images.cv} download><button className='btn_download'><i className='bx bx-download'></i>Descargar CV</button></a>
  </div>
             </article>
             <div className='line'></div>
@@ -69,6 +69,16 @@ const AboutMe = () => {
         <p className='company'>Almacontact</p>
         <p className='infocompany'>Ejecutivo de atención al cliente</p>
             <p className='infocompany'>Atención al cliente y ventas de productos y servicios de telefonía fija, móvil e internet de comcel Colombia.</p>
+            <article className='container_animation'>
+     
+            <img className='img_animado' src={images.cohete} alt="" />
+            <i className='bx bxs-star star_1'></i>
+            <i className='bx bxs-star star_2'></i>
+            <i className='bx bxs-star star_3'></i>
+            <i className='bx bxs-star star_4'></i>
+
+            </article>
+
         </div>
 
         </div>

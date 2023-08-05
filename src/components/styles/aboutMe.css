@@ -219,6 +219,89 @@ gap: 0.2rem;
   
   }
 
+  .container_animation{
+    display: inline-block;
+    position: relative;
+  }
+
+  .bxs-star{
+   position: relative;
+   
+
+  }
+
+  .star_1, .star_2, .star_3, .star_4{
+
+  animation: star_1 3s infinite ease-in-out;
+  }
+
+
+
+  @keyframes star_1 {
+    0%{
+      transform:  translate(0%, -0%);
+      opacity:1;
+    }
+
+    30%{
+      transform: translate(0, 0);
+      opacity: 1;
+      
+    
+     
+    }
+
+
+    50%{
+      transform: rotate(35deg) translate(100%, -100%);
+      opacity: 0;
+    }
+
+    100%{
+      transform: rotate(-10deg) translate(0, -0);
+      opacity: 0;
+    }
+    
+  }
+
+
+
+
+
+  .img_animado{
+ width: 100px;
+ transform: rotate(45deg);
+ animation: rocket 2s infinite ease-out;
+
+  }
+
+  @keyframes rocket {
+    0%{
+      transform: rotate(45deg) translate(-200, -200);
+      opacity:1;
+    }
+
+    30%{
+      transform: rotate(40deg) translate(100%, -100%);
+      opacity: 1;
+    
+    
+     
+    }
+
+
+    50%{
+      transform: rotate(35deg) translate(200%, -200%);
+      opacity: 0;
+    }
+
+    100%{
+      transform: rotate(20deg) translateX(-300%, -300%);
+      opacity: 0;
+    }
+    
+  }
+
 .infocompany{
   width: 350px;
 

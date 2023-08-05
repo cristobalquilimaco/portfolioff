@@ -138,26 +138,26 @@ cursor: pointer;
 
 .btn{
  
-    width: 200px;
-    padding: 0.8rem;
-    background-color: var(--color-icon);
-    cursor: pointer;
-    border-radius: 30rem;
-    border: 2px solid var(--color-hover);
-    transition: background-color 0.5s ease;
-    font-size: 17px;
-    z-index: 4;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold ;
+width: 200px;
+padding: 0.8rem;
+background-color:transparent;
+cursor: pointer;
+border-radius: 30rem;
+border: 1px solid var(--color-hover);
+transition: background-color 0.5s ease;
+font-size: 17px;
+z-index: 4;
+font-family: 'Nunito', sans-serif;
+font-weight: bold ;
+color: var(--color-x);
 }
 
 .btn:hover {
-    background-color: transparent; /* Cambiar a color transparente al pasar el cursor */
-    background-image: linear-gradient(to right, #c07c16 0%, transparent 100%); /* Crear un degradado hacia la derecha */
-    background-size: 200% 100%; /* Asegurarse de que el degradado cubra todo el ancho del botón */
-    background-position: right; /* Iniciar el degradado desde la derecha */
-    animation: slide-out 1s forwards; /* Animación para desvanecer el color */
-  color:#FFFFFF;
+background-color: transparent;
+background-image: linear-gradient(to right, #c07c16 0%, transparent 100%); 
+background-size: 200% 100%; 
+background-position: right; 
+color:#FFFFFF;
 
 }
   
