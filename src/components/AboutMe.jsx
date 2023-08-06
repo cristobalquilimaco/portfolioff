@@ -93,12 +93,11 @@ const AboutMe = () => {
             </div>
         <div className='posts'>
         <p className='company'>Academlo</p>
-            <p className='certificate_info'>Desarrollador web Full Stack</p>
-            <p className='certificate_info'>Back-End Development with Node.js</p>
-            <p className='certificate_info'>Desarrollo de Aplicaciones Web con React</p>
-            <p className='certificate_info'>Fundamentos de Desarrollo Web</p>
+        <a href="https://certificates.academlo.com/en/verify/27615630700143"><p className='certificate_info'>Desarrollador web Full Stack</p></a>
+            <a href="https://certificates.academlo.com/en/verify/42014531296913"><p className='certificate_info'>Back-End Development with Node.js</p></a>
+            <a href="https://certificates.academlo.com/en/verify/54402045361468"><p className='certificate_info'>Desarrollo de Aplicaciones Web con React</p></a>
+            <a href="https://certificates.academlo.com/en/verify/82888452818670"><p className='certificate_info'>Fundamentos de Desarrollo Web</p></a>
         </div>
-
         </div>
         <div className='work_information'>
             <div className='date'>
@@ -107,9 +106,10 @@ const AboutMe = () => {
             </div>
         <div className='posts'>
         <p className='company'>Platzi</p>
+            <a href="https://platzi.com/p/quilimacox/curso/2292-terminal/diploma/detalle/"><p className='certificate_info'>Introduccion a la terminal y linea de comandos</p></a>
+            <a href="https://platzi.com/p/quilimacox/curso/2313-portugues-cotidiano/diploma/detalle/"><p className='certificate_info'>Portugués cotidiano</p></a>
             <p className='certificate_info'>Community Manager</p>
-            <p className='certificate_info'>Introduccion a la terminal y linea de comandos</p>
-            <p className='certificate_info'>Portugués cotidiano</p>
+            
         </div>
 
         </div>
@@ -121,7 +121,7 @@ const AboutMe = () => {
             </div>
         <div className='posts'>
         <p className='company'>Politecnico de Colombia</p>
-            <p>Community Management</p>
+            <p className='certificate_info'>Community Management</p>
         </div>
 
         </div>

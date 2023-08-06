@@ -5,7 +5,7 @@ import rickandMorty from "/public/images/rickandMorty.png"
 import weatherapp from "/public/images/WeatherApp.png"
 import animado from "/public/images/animado.gif"
 import cohete from "/public/images/cohete.png"
-import cv from "/public/images/CV- dev.pdf"
+import cv from "/public/images/CV-dev.pdf"
 
 
 
