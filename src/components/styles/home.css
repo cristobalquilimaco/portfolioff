@@ -193,3 +193,26 @@ color:#FFFFFF;
 
 
   }
+
+
+  @media screen and (max-width: 600px) {
+    
+    .neon-bar {
+      left: 65%;
+  }
+  
+  
+  
+  
+  .neon-bar:nth-child(2){
+
+      left: 10%;
+  }
+  
+  .neon-bar:nth-child(3){
+
+      left: 40%;
+
+  }
+
+  }
