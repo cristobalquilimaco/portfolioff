@@ -24,7 +24,7 @@ overflow: hidden;
 
 .banner{
 position: relative;
-
+overflow: hidden;
 }
 
 .neon-bar {
@@ -43,6 +43,7 @@ position: relative;
 
     height: 400px;
     animation: jumpAnimation 2s infinite;
+    overflow: hidden;
 }
 
 
@@ -91,11 +92,11 @@ flex-wrap: wrap;
 background-image: radial-gradient(circle at 35.28% 58.5%, #2a2a29 0, #0d0b16 50%, #000000 100%);
 width: 100%;
 height: 100%;
-
+overflow:hidden ;
 }
 
 .my_name{
-font-size: 40px;
+font-size: 30px;
 color: var(--color-hover);
 overflow: hidden;
 height: 1.2em;
@@ -104,9 +105,14 @@ margin-top: 2rem;
 }
 
 .article{
-    width: 600px;
+    width: 400px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     animation: slide-out 1s ease;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0.5rem;
 }
 
 .information{
