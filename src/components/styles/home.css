@@ -19,7 +19,6 @@ height: 100%;
 
 .banner_principal{
 overflow: hidden;
-width: 100%;
 }
 
 
@@ -199,6 +198,11 @@ color:#FFFFFF;
 
 
   @media screen and (max-width: 600px) {
+
+
+    .principal_home{
+  overflow: hidden;
+  }
     
     .neon-bar {
       left: 65%;
