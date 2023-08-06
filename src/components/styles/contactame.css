@@ -26,7 +26,8 @@ height: 100vh;
     border-radius: 10px;
     max-width: 900px;
     min-width: 350px;
-    animation: borderBrill 2s infinite, slide-out 1s forwards;;
+    animation: borderBrill 2s infinite, slide-out 1s forwards;
+    overflow: hidden;
     
 }
 
@@ -75,7 +76,8 @@ flex-direction: column;
 justify-content: center;
 gap: 1rem;
 text-align: center;
-width: 390px;
+width: 370px;
+overflow: hidden;
 
 }
 
