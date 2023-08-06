@@ -27,7 +27,7 @@ p,h1,h2,h3,h4,h5{
 
 .principal_about{
 width: 100%;
-display: inline-block;
+
     background-image: radial-gradient(circle at 35.28% 58.5%, #2a2a29 0, #0d0b16 50%, #000000 100%);
 }
 
@@ -55,7 +55,7 @@ display: inline-block;
 display: flex;
 flex-direction: column;
 text-align: center;
-width: 350px;
+
 justify-content: center;
 align-items: center;
 width: 100%;
@@ -65,7 +65,7 @@ width: 100%;
 
 .subtitle{
     color: var(--color-x);
-
+background-color: red;
 }
 
 .about__tt{
@@ -78,14 +78,10 @@ font-size: 50px;
 
 .color_tt{
 color: var(--color-hover);
-}
-
-
-
-.info_me{
-    text-align: center;
 
 }
+
+
 
 .bx-rocket {
   position: absolute;
@@ -94,8 +90,11 @@ color: var(--color-hover);
   transform: translateX(-50%);
   width: 50px;
   height: 50px;
+ 
+}
 
-  
+.banner_about{
+
 }
 
 @keyframes fly_rocket {
@@ -136,6 +135,8 @@ gap: 1rem;
 
 display: flex;
 flex-direction: column;
+justify-content:center ;
+align-items: center;
 gap: 0.3rem;
 padding: 1rem;
 }
@@ -144,10 +145,12 @@ padding: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
     display: flex;
-    justify-content: space-between;
-    gap: 2rem;
+    text-align: center;
+    justify-content:space-between;
+    gap: 0.5rem;
 
-width: 390px;
+
+width: 100%;
   }
   
   .information__me p span {
@@ -217,13 +220,13 @@ color: var(--color-x);
   .experience_text{
 font-size: 22px;
 margin-bottom: 1rem;
+
   }
 
   .work_information{
 display: flex;
 flex-direction: column;
 gap: 0.2rem;
-
   }
 
 
