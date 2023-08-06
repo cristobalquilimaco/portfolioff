@@ -16,7 +16,7 @@ const AboutMe = () => {
  <p className='subtitle'>Soy desarrollador web Full Stack dispuesto a trabajar en equipo, manteniendo una excelente comunicación y ética, trabajando con una gran motivación y dispuesto a adaptarme a los cambios</p>
             </div>
             <article className='banner_about'>
-            <div>
+            <div className='img_rocket'>
     <img className='img_about' src={images.banner} alt="" />
             <i className='bx bx-rocket' ></i>
             <i className='bx bx-rocket' ></i>
