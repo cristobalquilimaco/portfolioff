@@ -1,5 +1,4 @@
 
-
 :root {
   --color-box-menu: #333333;
   --color-button:#222222e8;
@@ -11,8 +10,17 @@
   --react-color: #61DBFB;
   --css-color: #0F5298;
   --github-color: #000000;
+}
 
+body{
+  box-sizing: border-box;
+  margin: 0;
+  overflow: hidden;
+}
 
+*{
+  margin: 0;
+  overflow: hidden;
 }
 
 p,h1,h2,h3,h4,h5{
@@ -28,6 +36,7 @@ p,h1,h2,h3,h4,h5{
 .principal_about{
 width: 100%;
 
+height: auto;
     background-image: radial-gradient(circle at 35.28% 58.5%, #2a2a29 0, #0d0b16 50%, #000000 100%);
 }
 
@@ -38,7 +47,6 @@ width: 100%;
    flex-direction: column;
    flex-wrap: wrap;
    gap: 2rem;
-   margin: 1rem;
    animation: slide-out 1s forwards;
 
 
@@ -58,14 +66,13 @@ text-align: center;
 
 justify-content: center;
 align-items: center;
-width: 100%;
+width: 350px;
 }
 
 
 
 .subtitle{
     color: var(--color-x);
-background-color: red;
 }
 
 .about__tt{
