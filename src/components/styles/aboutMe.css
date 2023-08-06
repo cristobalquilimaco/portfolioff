@@ -15,12 +15,10 @@
 body{
   box-sizing: border-box;
   margin: 0;
-  overflow: hidden;
 }
 
 *{
   margin: 0;
-  overflow: hidden;
 }
 
 p,h1,h2,h3,h4,h5{
@@ -35,7 +33,7 @@ p,h1,h2,h3,h4,h5{
 
 .principal_about{
 width: 100%;
-
+overflow: hidden;
 height: auto;
     background-image: radial-gradient(circle at 35.28% 58.5%, #2a2a29 0, #0d0b16 50%, #000000 100%);
 }
