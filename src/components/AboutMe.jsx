@@ -13,11 +13,11 @@ const AboutMe = () => {
         <div className='text_info'>
             <div className='title_subtitle'>
             <h1 className='about__tt'>SOBRE <span className='color_tt'> MÍ</span></h1>
- <h2 className='subtitle'>Soy desarrollador web Full Stack dispuesto a trabajar en equipo, manteniendo una excelente comunicación y ética, trabajando con una gran motivación y dispuesto a adaptarme a los cambios</h2>
+ <p className='subtitle'>Soy desarrollador web Full Stack dispuesto a trabajar en equipo, manteniendo una excelente comunicación y ética, trabajando con una gran motivación y dispuesto a adaptarme a los cambios</p>
             </div>
             <article className='banner_about'>
             <div>
-    <img src={images.banner} alt="" />
+    <img className='img_about' src={images.banner} alt="" />
             <i className='bx bx-rocket' ></i>
             <i className='bx bx-rocket' ></i>
             <i className='bx bx-rocket' ></i>
