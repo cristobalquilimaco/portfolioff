@@ -30,7 +30,7 @@ const AboutMe = () => {
 <p>Fecha de Nacimiento  <span>14 de Junio 1994</span></p>
 <p>Nacionalidad <span>Venezolano</span></p>
 <p>Residenicia <span>Bogota Colombia</span></p>
-<p>Idiomas <span>Español - Nativo, Portugues B2, Ingles - A2</span></p>
+<p>Idiomas <span>Español-Nativo, Portugues-B2, Ingles-A2</span></p>
 <p>Email <span>quilimacox1@gmail.com</span></p>
 <p>Skype <span>quilimacox1</span></p>
 <a href={images.cv} download><button className='btn_download'><i className='bx bx-download'></i>Descargar CV</button></a>
