@@ -1,18 +1,14 @@
 import React, { useState } from 'react';
 import "../components/styles/contactame.css";
-import ReCAPTCHA from 'react-google-recaptcha';
+import axios from 'axios';
+
 
 const Contactame = () => {
-  const [captchaValue, setCaptchaValue] = useState(null);
   const [formData, setFormData] = useState({
     user_name: "",
     user_mail: "",
     text_area: "",
   });
-
-  const handleCaptchaChange = (value) => {
-    setCaptchaValue(value);
-  };
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -20,7 +16,8 @@ const Contactame = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (captchaValue) {
+    const isConfirmed = window.confirm("¿Estás seguro de que deseas enviar el mensaje?");
+    if (isConfirmed) {
       // Enviar el formulario a través de Formspree
       axios
         .post("https://formspree.io/f/xdorengv", formData)
@@ -32,7 +29,6 @@ const Contactame = () => {
               user_mail: "",
               text_area: "",
             });
-            setCaptchaValue(null);
           } else {
             alert("Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.");
           }
@@ -42,9 +38,10 @@ const Contactame = () => {
           alert("Hubo un error en la solicitud. Por favor, inténtalo de nuevo más tarde.");
         });
     } else {
-      alert("Por favor, completa el captcha antes de enviar el formulario.");
+      alert("Envío de mensaje cancelado.");
     }
   };
+
 
   return (
     <>
@@ -62,7 +59,8 @@ const Contactame = () => {
             <a href="https://github.com/cristobalquilimaco"><li><i className='bx bxl-github'></i><p>GitHub</p></li></a>
 
           </ul>
-     <form className="form_contact" onSubmit={handleSubmit} method="post">
+          <form className="form_contact" onSubmit={handleSubmit} action="https://formspree.io/f/xdorengv"
+  method="POST">
       <ul className="list_form">
         <li className="form_class">
           <label className="text" htmlFor="name">
@@ -102,9 +100,6 @@ const Contactame = () => {
             value={formData.text_area}
             onChange={handleChange}
           />
-        </li>
-        <li className="form_class">
-          <ReCAPTCHA sitekey="6LeS-4knAAAAAOOPnamrSwwi5jHyz6l5LdbEkubj" onChange={handleCaptchaChange} />
         </li>
       </ul>
       <button className="btn_download" type="submit">
