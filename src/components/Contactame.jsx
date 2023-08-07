@@ -56,55 +56,54 @@ const Contactame = () => {
             <a href="mailto:quilimacox1@gmail.com"><li><i className='bx bxl-instagram' ></i><p>Instagram</p></li></a>
             <a href="https://www.linkedin.com/in/cristobal-quilimaco-119b4324b/"><li><i className='bx bxl-linkedin' ></i><p>Linkedin</p></li></a>
             <a href="https://github.com/cristobalquilimaco"><li><i className='bx bxl-github'></i><p>GitHub</p></li></a>
-
           </ul>
           <form className="form_contact" onSubmit={handleSubmit} action="https://formspree.io/f/xdorengv"
-  method="POST">
-      <ul className="list_form">
-        <li className="form_class">
-          <label className="text" htmlFor="name">
-            Nombre:
-          </label>
-          <input
-            className="space"
-            type="text"
-            id="name"
-            name="user_name"
-            value={formData.user_name}
-            onChange={handleChange}
-          />
-        </li>
-        <li className="form_class">
-          <label className="text" htmlFor="mail">
-            Correo electrónico:
-          </label>
-          <input
-            className="space"
-            type="email"
-            id="mail"
-            name="user_mail"
-            value={formData.user_mail}
-            onChange={handleChange}
-          />
-        </li>
-        <li className="form_class">
-          <label className="text" htmlFor="msg">
-            Mensaje:
-          </label>
-          <input
-            className="space space_text"
-            type="text"
-            id="msg"
-            name="text_area"
-            value={formData.text_area}
-            onChange={handleChange}
-          />
-        </li>
-      </ul>
-      <button className="btn_download" type="submit">
-        <i className="bx bx-mail-send"></i>
-      </button>
-    </form>
+            method="POST">
+            <ul className="list_form">
+              <li className="form_class">
+                <label className="text" htmlFor="name">
+                  Nombre:
+                </label>
+                <input
+                  className="space"
+                  type="text"
+                  id="name"
+                  name="user_name"
+                  value={formData.user_name}
+                  onChange={handleChange}
+                />
+              </li>
+              <li className="form_class">
+                <label className="text" htmlFor="mail">
+                  Correo electrónico:
+                </label>
+                <input
+                  className="space"
+                  type="email"
+                  id="mail"
+                  name="user_mail"
+                  value={formData.user_mail}
+                  onChange={handleChange}
+                />
+              </li>
+              <li className="form_class">
+                <label className="text" htmlFor="msg">
+                  Mensaje:
+                </label>
+                <input
+                  className="space space_text"
+                  type="text"
+                  id="msg"
+                  name="text_area"
+                  value={formData.text_area}
+                  onChange={handleChange}
+                />
+              </li>
+            </ul>
+            <button className="btn_download" type="submit">
+              <i className="bx bx-mail-send"></i>
+            </button>
+          </form>
         </section>
       </div>
     </>

@@ -1,21 +1,21 @@
-.principal_contact{
+.principal_contact {
     background-image: radial-gradient(circle at 35.28% 58.5%, #2a2a29 0, #0d0b16 50%, #000000 100%);
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     overflow: hidden;
 
-    
+
 }
 
-.title_subtitle{
+.title_subtitle {
     animation: slide-u 2s;
 }
 
-.contacme_with_form{
+.contacme_with_form {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -29,31 +29,32 @@
     min-width: 350px;
     animation: borderBrill 2s infinite, slide-out 1s forwards;
 
-    
+
 }
 
 @keyframes borderBrill {
     0% {
         border-color: var(--color-hover);
     }
-    50%{
+
+    50% {
         border-color: var(--color-x);
         box-shadow: 0 0 10px var(--color-x);
     }
 
-    100%{
+    100% {
         border-color: var(--color-hover);
     }
 
 }
 
 .info_contact_icon {
-display: flex;
-flex-direction: column;
-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.info_contact_icon li{
+.info_contact_icon li {
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -62,32 +63,32 @@ gap: 1rem;
 
 /* FORMULARIO */
 
-.form_contact{
+.form_contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 
-  
-}
-
-.form_class{
-display: flex;
-flex-direction: column;
-justify-content: center;
-gap: 1rem;
-text-align: center;
-width: 370px;
 
 }
 
-.about__ttt{
+.form_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    width: 370px;
+
+}
+
+.about__ttt {
     margin-top: 50px;
     font-size: 40px;
 
 }
 
-.space{
+.space {
     border: 1px solid var(--color-hover);
     height: 30px;
     border-radius: 30px;
@@ -96,22 +97,22 @@ width: 370px;
 
 }
 
-.text{
+.text {
     color: var(--color-x);
     font-size: 20px;
     margin-top: 0.3rem;
 }
 
-@media (min-width: 700px){
+@media (min-width: 700px) {
 
-    .principal_contact{
+    .principal_contact {
 
         width: 100%;
-   height: 100vh;
+        height: 100vh;
 
         overflow: hidden;
-    
-        
+
+
     }
-    
+
 }

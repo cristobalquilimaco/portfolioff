@@ -18,7 +18,7 @@ const typeWriterEffect = (text, setDisplayText) => {
         setDisplayText('');
         index = 0;
         typeWriterEffect(text, setDisplayText);
-      }, 5000); 
+      }, 5000);
     }
   }, 120);
 
@@ -35,20 +35,19 @@ const Home = () => {
   useEffect(() => {
     const cleanup = typeWriterEffect(text, setDisplayText);
     return cleanup;
-  }, []); 
+  }, []);
 
   return (
     <div className='principal_home'>
 
-      <div className='banner_principal'>
+    <div className='banner_principal'>
         <div className="neon-bar"></div>
         <div className="neon-bar"></div>
         <div className="neon-bar"></div>
-        
         <img className="banner" src={banner} alt="" />
       </div>
       <div className='article'>
-      <div className='information'>
+        <div className='information'>
           {displayText === text ? (
             <h1 className='my_name'>{displayText}</h1>
           ) : (
@@ -56,7 +55,7 @@ const Home = () => {
           )}
           <h2 className='developertext'>Desarrollador De Front End</h2>
           <p className='description'>
-          "Apasionado del desarrollo frontend, con 28 años de edad, convirtiendo ideas en experiencias digitales impactantes. Busco llevar la usabilidad y la innovación al siguiente nivel. ¡Listo para enfrentar nuevos desafíos juntos! 💻🚀 #FrontendDev"
+            "Apasionado del desarrollo frontend, con 28 años de edad, convirtiendo ideas en experiencias digitales impactantes. Busco llevar la usabilidad y la innovación al siguiente nivel. ¡Listo para enfrentar nuevos desafíos juntos! 💻🚀 #FrontendDev"
           </p>
           <div className='btn_principal btn-information'>
             <Link to="/aboutme"><button className='btn btn_home2'>More about me</button></Link>
@@ -64,9 +63,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-
     </div>
-    
+
   );
 };
 

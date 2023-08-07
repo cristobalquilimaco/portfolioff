@@ -21,37 +21,31 @@ const Navbar = () => {
   };
 
   return (
-<div className="menuprincipal">
-<nav className="menu__nav">
+    <div className="menuprincipal">
+      <nav className="menu__nav">
         <div className="burger__menu" onClick={updateMenu}>
           <div className={burgerClass}></div>
           <div className={burgerClass}></div>
           <div className={burgerClass}></div>
         </div>
-       
         <div className={`additional-class ${menuClass}`}>
-  
-  <ul className="aditional__list">
-    <div className="box__menu">
-    <Link to="/" onClick={updateMenu}><li><i className='bx bxs-home' ><span className="span_font">Home</span></i></li></Link>
-    
-    </div>
-    <div className="box__menu">
-    <Link to="/aboutme" onClick={updateMenu} ><li><i className='bx bxs-user'><span className="span_font">Acerca de mi</span></i></li></Link>
-    </div> 
-  <div className="box__menu">
-    <Link to="/portfolio" onClick={updateMenu} ><li><i className='bx bxs-briefcase'><span className="span_font">Portafolio</span></i></li></Link>
-   
-  </div>
- <div className="box__menu"> 
- <Link to="/contactame" onClick={updateMenu} ><li><i className='bx bxs-contact'><span className="span_font">Contactame</span></i></li></Link></div>
-
-   
-  </ul>
-</div>
+          <ul className="aditional__list">
+            <div className="box__menu">
+              <Link to="/" onClick={updateMenu}><li><i className='bx bxs-home' ><span className="span_font">Home</span></i></li></Link>
+            </div>
+            <div className="box__menu">
+              <Link to="/aboutme" onClick={updateMenu} ><li><i className='bx bxs-user'><span className="span_font">Acerca de mi</span></i></li></Link>
+            </div>
+            <div className="box__menu">
+              <Link to="/portfolio" onClick={updateMenu} ><li><i className='bx bxs-briefcase'><span className="span_font">Portafolio</span></i></li></Link>
+            </div>
+            <div className="box__menu">
+              <Link to="/contactame" onClick={updateMenu} ><li><i className='bx bxs-contact'><span className="span_font">Contactame</span></i></li></Link></div>
+          </ul>
+        </div>
       </nav>
-</div>
-      
+    </div>
+
   );
 };
 
