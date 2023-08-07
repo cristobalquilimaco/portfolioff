@@ -1,9 +1,19 @@
 import React from 'react'
 import images from '../assets/images'
 import "../components/styles/aboutMe.css"
+import CvDesarrolladorweb from "/public/images/CvDesarrolladorweb.pdf"
+
 
 
 const AboutMe = () => {
+
+const openNewWindow = () =>{
+    window.open(CvDesarrolladorweb, '_blank');
+};
+
+
+
+
   return (
     <>
     
@@ -33,7 +43,7 @@ const AboutMe = () => {
 <p>Idiomas <span>Español-Nativo, Portugues-B2, Ingles-A2</span></p>
 <p>Email <span>quilimacox1@gmail.com</span></p>
 <p>Skype <span>quilimacox1</span></p>
-<a href={images.cvdev} download><button className='btn_download'><i className='bx bx-download'></i>Descargar CV</button></a>
+<button className='btn_download' onClick={openNewWindow}><i className='bx bx-download'></i>Descargar CV</button>
  </div>
             </article>
             <div className='line'></div>

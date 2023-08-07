@@ -3,7 +3,7 @@ import pokedex from "/public/images/Pokedex.png"
 import ecommerceVanilla from "/public/images/EcommerceVanilla.png"
 import rickandMorty from "/public/images/rickandMorty.png"
 import weatherapp from "/public/images/WeatherApp.png"
-import cvdev from "/public/images/Cv-dev.pdf"
+import cvdev from "/public/images/Cvdev.pdf"
 
 
 
