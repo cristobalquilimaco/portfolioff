@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "../components/styles/contactame.css";
-import ReCAPTCHA from "react-google-recaptcha";
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contactame = () => {
   const [captchaValue, setCaptchaValue] = useState(null);
@@ -104,7 +104,7 @@ const Contactame = () => {
           />
         </li>
         <li className="form_class">
-          <ReCAPTCHA sitekey="6LfXxIknAAAAAAD1RMYwGnBbnJfvwNe8Fk5rjuQ4" onChange={handleCaptchaChange} />
+          <ReCAPTCHA sitekey="6LeS-4knAAAAAOOPnamrSwwi5jHyz6l5LdbEkubj" onChange={handleCaptchaChange} />
         </li>
       </ul>
       <button className="btn_download" type="submit">
