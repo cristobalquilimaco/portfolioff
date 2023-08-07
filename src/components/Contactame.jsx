@@ -18,7 +18,6 @@ const Contactame = () => {
     e.preventDefault();
     const isConfirmed = window.confirm("¿Estás seguro de que deseas enviar el mensaje?");
     if (isConfirmed) {
-      // Enviar el formulario a través de Formspree
       axios
         .post("https://formspree.io/f/xdorengv", formData)
         .then((response) => {

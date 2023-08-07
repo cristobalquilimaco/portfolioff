@@ -33,7 +33,7 @@ const AboutMe = () => {
 <p>Idiomas <span>Español-Nativo, Portugues-B2, Ingles-A2</span></p>
 <p>Email <span>quilimacox1@gmail.com</span></p>
 <p>Skype <span>quilimacox1</span></p>
-<a href={images.cv} download><button className='btn_download'><i className='bx bx-download'></i>Descargar CV</button></a>
+<a href={images.cvdev} download><button className='btn_download'><i className='bx bx-download'></i>Descargar CV</button></a>
  </div>
             </article>
             <div className='line'></div>
