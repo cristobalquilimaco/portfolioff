@@ -4,6 +4,7 @@ import ecommerceVanilla from "/public/images/EcommerceVanilla.png"
 import rickandMorty from "/public/images/rickandMorty.png"
 import weatherapp from "/public/images/WeatherApp.png"
 import cvdev from "/public/images/Cvdev.pdf"
+import cohete from "/public/images/cohete.png"
 
 
 
@@ -15,5 +16,6 @@ export default {
     "rickandMorty": rickandMorty,
     "weatherapp": weatherapp,
     "cvdev":cvdev,
+    "cohete":cohete,
 
 }
