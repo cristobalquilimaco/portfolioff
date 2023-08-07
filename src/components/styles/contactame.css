@@ -1,10 +1,12 @@
 .principal_contact{
     background-image: radial-gradient(circle at 35.28% 58.5%, #2a2a29 0, #0d0b16 50%, #000000 100%);
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    overflow: hidden;
 
     
 }
@@ -100,3 +102,16 @@ width: 370px;
     margin-top: 0.3rem;
 }
 
+@media (min-width: 700px){
+
+    .principal_contact{
+
+        width: 100%;
+   height: 100vh;
+
+        overflow: hidden;
+    
+        
+    }
+    
+}
