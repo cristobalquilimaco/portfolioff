@@ -3,7 +3,7 @@
   width: 100%;
   height: 100%;
   padding-bottom: 5rem;
-  overflow: hidden;
+
 }
 
 .title_info_pt {
@@ -30,7 +30,7 @@
 }
 
 .image_portfolio {
-  width: 400px;
+  width: 300px;
   height: auto;
 }
 
@@ -93,6 +93,14 @@
   z-index: 2;
 }
 
+.bx-link-external{
+color: #000000;
+}
+
+.bx-link-external:hover{
+  color: #000000;
+  }
+
 .portfolio1 {
   display: flex;
   flex-direction: column;
@@ -118,7 +126,7 @@
 
 .t_info {
   display: flex;
-  width: 150px;
+  width: 180px;
   height: 30px;
   background-color: var(--color-hover);
   color: black;
