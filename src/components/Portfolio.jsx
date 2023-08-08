@@ -26,7 +26,7 @@ const Portfolio = () => {
         </div>
         <div className='section_project'>
           <p className='info_page1'>Proyecto Pokedex</p>
-          <p className='description_project'>Se consume API publica de pokemon para hacer una aplicacion tipo catalogo con todos los pokemons</p>
+          <p className='description_project'>Se consume API de pokemon para hacer una aplicacion tipo catalogo con todos los pokemons</p>
           <div className='text_portfolio portfolio1'>
             <a className='t_info' href="https://pokedexcristobal.netlify.app/"> <i className='bx bx-link-external'></i>Pokedex</a>
             <p className='tecnology'>Tecnologias</p>
