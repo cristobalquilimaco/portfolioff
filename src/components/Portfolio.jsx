@@ -10,6 +10,22 @@ const Portfolio = () => {
         <p className='description_portfolio'>Échale un vistazo a mis proyectos más recientes.</p>
       </article>
       <section className='projects_name'>
+
+      <div className='section_project'>
+          <p className='info_page1'>E-commerce React</p>
+          <p className='description_project'>Se crean página web tipo tienda virtual de productos electrónicos.</p>
+          <div className='text_portfolio portfolio1'>
+            <a className='t_info' href="https://ecommercewithreactq.netlify.app/"><i className='bx bx-link-external'></i>E-commerce</a>
+            <p className='tecnology'>Tecnologias</p>
+            <article className='tec_pp'>
+              <p className='tec_info'>React</p>
+              <p className='tec_info'>Redux</p>
+              <p className='tec_info'>Router</p>
+            </article>
+          </div>
+          <img className='image_portfolio' src={images.ecommercereact} alt="" />
+        </div>
+
         <div className='section_project'>
           <p className='info_page1'>Proyecto E-commerce</p>
           <p className='description_project'>E-commerce hecha consumiendo la Api del instituto academlo</p>
