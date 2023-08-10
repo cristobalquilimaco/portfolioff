@@ -53,7 +53,7 @@ const Home = () => {
           ) : (
             <h1 className='my_name'>{text.slice(0, displayText.length)}</h1>
           )}
-          <h2 className='developertext'>Desarrollador De Front End</h2>
+          <h2 className='developertext'>Desarrollador Web FullStack</h2>
           <p className='description'>
             "Apasionado del desarrollo frontend, con 28 años de edad, convirtiendo ideas en experiencias digitales impactantes. Busco llevar la usabilidad y la innovación al siguiente nivel. ¡Listo para enfrentar nuevos desafíos juntos! 💻🚀 #FrontendDev"
           </p>
