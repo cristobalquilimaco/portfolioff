@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import images from '../assets/images'
 import "../components/styles/aboutMe.css"
 import CvDesarrolladorweb from "/public/images/CvDesarrolladorweb.pdf"
@@ -6,10 +6,43 @@ import CvDesarrolladorweb from "/public/images/CvDesarrolladorweb.pdf"
 
 
 const AboutMe = () => {
+const [count, setCount] = useState(0)
+
+const [elements, setElements] = useState([
+    {id: 1, isVisible: true},
+    {id: 2, isVisible: true}
+]);
+
+useEffect(() => {
+const handleScroll =()=>{
+    const yOffset = window.scrollY;
+    const threshold = 300;
+
+    setElements((prevElements)=>
+    prevElements.map((element) => ({
+        ...element,
+        isVisible: yOffset > threshold,
+    }))
+    );
+};
+
+window.addEventListener('scroll', handleScroll);
+return () => {
+    window.removeEventListener('scroll', handleScroll);
+};
+
+
+}, [])
+
 
     const openNewWindow = () => {
         window.open(CvDesarrolladorweb, '_blank');
     };
+
+
+
+
+
 
     return (
         <>
@@ -44,7 +77,7 @@ const AboutMe = () => {
                 </section>
                 <article className='information_about'>
                     <div className='line_down'></div>
-                    <div className='experience'>
+                    <div className={`fade-in fade-in2 experience ${elements[0].isVisible ? 'visible' : ''}`}>
                         <h3 className='experience_text'>EXPERIENCIA</h3>
                         <div className='work_information'>
                             <div className='date'>
@@ -75,16 +108,17 @@ const AboutMe = () => {
                                 </article>
                             </div>
                         </div>
-                    </div>
-                    <div className='exp_text_info'>
+                    </div> 
+                    <div className={`fade-in3 fade-in4 exp_tex_info ${elements[0].isVisible ? 'visible' : ''}`}>
                         <h1 className='experience_text'>EDUCACIÓN</h1>
                         <div className='work_information'>
                             <div className='date'>
                                 <i className='bx bx-play'></i>
                                 <p className='years_work'>07 - 2023</p>
                             </div>
-                            <div className='posts'>
+                            
                                 <p className='company'>Academlo</p>
+                                <div className='posts'>
                                 <a href="https://certificates.academlo.com/en/verify/27615630700143"><p className='certificate_info'>Desarrollador web Full Stack</p></a>
                                 <a href="https://certificates.academlo.com/en/verify/42014531296913"><p className='certificate_info'>Back-End Development with Node.js</p></a>
                                 <a href="https://certificates.academlo.com/en/verify/54402045361468"><p className='certificate_info'>Desarrollo de Aplicaciones Web con React</p></a>
@@ -96,8 +130,9 @@ const AboutMe = () => {
                                 <i className='bx bx-play'></i>
                                 <p className='years_work'>05 - 2022</p>
                             </div>
-                            <div className='posts'>
+                            
                                 <p className='company'>Platzi</p>
+                                <div className='posts'>
                                 <a href="https://platzi.com/p/quilimacox/curso/2292-terminal/diploma/detalle/"><p className='certificate_info'>Introduccion a la terminal y linea de comandos</p></a>
                                 <a href="https://platzi.com/p/quilimacox/curso/2313-portugues-cotidiano/diploma/detalle/"><p className='certificate_info'>Portugués cotidiano</p></a>
                                 <p className='certificate_info'>Community Manager</p>
@@ -108,18 +143,19 @@ const AboutMe = () => {
                                 <i className='bx bx-play'></i>
                                 <p className='years_work'>03 - 2020</p>
                             </div>
-                            <div className='posts'>
+                            
                                 <p className='company'>Politecnico de Colombia</p>
+                                <div className='posts'>
                                 <p className='certificate_info'>Community Management</p>
                             </div>
                         </div>
                     </div>
                 </article>
-                <section className='skills'>
+                <section className="skills">
                     <h5>SKILLS</h5>
-                    <div className='skills--info'>
+                    <div className={`fade-in fade-in2 skill--info ${elements[0].isVisible ? 'visible' : ''}`}>
                         <div className='skills_name'>
-                            <div className='skill_information'>
+                            <div className="skill_information">
                                 <p className='lg html'>HTML</p>
                                 <i className='bx bx2 bxl-html5' ></i>
                             </div>

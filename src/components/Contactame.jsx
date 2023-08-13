@@ -28,6 +28,7 @@ const Contactame = () => {
               user_mail: "",
               text_area: "",
             });
+            
           } else {
             alert("Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.");
           }
