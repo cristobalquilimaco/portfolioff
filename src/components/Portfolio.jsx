@@ -92,6 +92,7 @@ const Portfolio = () => {
               <p className='tec_info'>React</p>
               <p className='tec_info'>JavaScript</p>
               <p className='tec_info'>CSS</p>
+              <p className='tec_info'>HTML</p>
             </article>
           </div>
           <img className='image_portfolio' src={images.weatherapp} alt="" />

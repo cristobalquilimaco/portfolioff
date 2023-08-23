@@ -6,7 +6,7 @@ import weatherapp from "/public/images/WeatherApp.png"
 import cvdev from "/public/images/Cvdev.pdf"
 import cohete from "/public/images/cohete.png"
 import ecommercereact from "/public/images/ecommerceract.png"
-
+import tictactoe from "/public/images/tictactoe.png"
 
 
 
@@ -19,5 +19,6 @@ export default {
     "cvdev":cvdev,
     "cohete":cohete,
     "ecommercereact": ecommercereact,
+    "tictactoe": tictactoe,
 
 }
