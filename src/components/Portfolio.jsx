@@ -95,7 +95,7 @@ const Portfolio = () => {
               <p className='tec_info'>HTML</p>
             </article>
           </div>
-          <img className='image_portfolio' src={images.weatherapp} alt="" />
+          <img className='image_portfolio' src={images.tictactoe} alt="" />
         </div>
       </section>
     </div>
