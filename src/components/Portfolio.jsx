@@ -82,6 +82,20 @@ const Portfolio = () => {
           </div>
           <img className='image_portfolio' src={images.weatherapp} alt="" />
         </div>
+        <div className='section_project'>
+          <p className='info_page1'>Juego tic tac toe</p>
+          <p className='description_project'>Se crea famoso juego tic tac toe, también conocido como la vieja.</p>
+          <div className='text_portfolio portfolio1'>
+            <a className='t_info' href="https://tictactoepractice.netlify.app/"><i className='bx bx-link-external'></i>Tic Tac Toe</a>
+            <p className='tecnology'>Tecnologias</p>
+            <article className='tec_pp'>
+              <p className='tec_info'>React</p>
+              <p className='tec_info'>JavaScript</p>
+              <p className='tec_info'>CSS</p>
+            </article>
+          </div>
+          <img className='image_portfolio' src={images.weatherapp} alt="" />
+        </div>
       </section>
     </div>
   )
