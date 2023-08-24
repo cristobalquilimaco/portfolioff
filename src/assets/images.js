@@ -20,5 +20,4 @@ export default {
     "cohete":cohete,
     "ecommercereact": ecommercereact,
     "tictactoe": tictactoe,
-
 }
