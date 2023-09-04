@@ -109,7 +109,7 @@ return () => {
                             </div>
                         </div>
                     </div> 
-                    <div className={`fade-in3 fade-in4 exp_tex_info ${elements[1].isVisible ? 'visible' : ''}`}>
+                    <div className={`fade-in3 fade-in4 exp_tex_info ${elements[0].isVisible ? 'visible' : ''}`}>
                         <h1 className='experience_text'>EDUCACIÓN</h1>
                         <div className='work_information'>
                             <div className='date'>
