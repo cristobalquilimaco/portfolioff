@@ -9,14 +9,14 @@ const AboutMe = () => {
 const [count, setCount] = useState(0)
 
 const [elements, setElements] = useState([
-    {id: 1, isVisible: true},
+    {id: 1, isVisible: false},
     {id: 2, isVisible: true}
 ]);
 
 useEffect(() => {
 const handleScroll =()=>{
     const yOffset = window.scrollY;
-    const threshold = 300;
+    const threshold = 250;
 
     setElements((prevElements)=>
     prevElements.map((element) => ({
@@ -109,7 +109,7 @@ return () => {
                             </div>
                         </div>
                     </div> 
-                    <div className={`fade-in3 fade-in4 exp_tex_info ${elements[0].isVisible ? 'visible' : ''}`}>
+                    <div className={`fade-in3 fade-in4 exp_tex_info ${elements[1].isVisible ? 'visible' : ''}`}>
                         <h1 className='experience_text'>EDUCACIÓN</h1>
                         <div className='work_information'>
                             <div className='date'>
@@ -153,7 +153,7 @@ return () => {
                 </article>
                 <section className="skills">
                     <h5>SKILLS</h5>
-                    <div className={`fade-in fade-in2 skill--info ${elements[0].isVisible ? 'visible' : ''}`}>
+                    <div className={`fade-in fade-in2 skill--info ${elements[1].isVisible ? 'visible' : ''}`}>
                         <div className='skills_name'>
                             <div className="skill_information">
                                 <p className='lg html'>HTML</p>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import banner from "/public/images/banner.png";
+import images from '../assets/images';
 import "../components/styles/home.css";
 import { Link } from 'react-router-dom';
 
@@ -44,7 +44,7 @@ const Home = () => {
         <div className="neon-bar"></div>
         <div className="neon-bar"></div>
         <div className="neon-bar"></div>
-        <img className="banner" src={banner} alt="" />
+        <img className="banner" src={images.banner} alt="" />
       </div>
       <div className='article'>
         <div className='information'>
