@@ -93,7 +93,7 @@ return () => {
                         <div className='work_information'>
                             <div className='date'>
                                 <i className='bx bx-play'></i>
-                                <p className='years_work'>2022- 2022</p>
+                                <p className='years_work'>2022- 2023</p>
                             </div>
                             <div className='posts'>
                                 <p className='company'>Almacontact</p>
