@@ -34,8 +34,7 @@ body {
   left: 35%;
   transform: translate(-50%, -50%);
   border-radius: 30%;
-  height: 400px;
-
+  height: 300px;
   border: 20px solid rgb(214, 211, 42);
   box-shadow: 0 0 5px rgb(221, 218, 29), 0 0 5px rgb(167, 207, 23), 0 0 8px rgb(173, 171, 13), 0 0 12px rgb(216, 205, 49);
   transform-origin: center;
@@ -49,7 +48,6 @@ body {
 .neon-bar:nth-child(2) {
   top: 50%;
   left: 15%;
-  height: 400px;
   transform: rotate(20deg) translate(-3rem, -13em);
   height: 400px;
   animation: jumpAnimation 2s infinite;
@@ -212,19 +210,20 @@ body {
   }
 
   .neon-bar {
+    top: 60%;
     left: 65%;
+    height: 250px;
+    border: 10px solid rgb(214, 211, 42);
   }
 
-
-
-
   .neon-bar:nth-child(2) {
-
     left: 10%;
+    height: 250px;
   }
 
   .neon-bar:nth-child(3) {
-
+    top: 60%;
+    height: 250px;
     left: 40%;
 
   }
