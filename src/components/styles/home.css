@@ -118,7 +118,6 @@ body {
   gap: 1rem;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
 }
 
 .description {
@@ -210,7 +209,7 @@ body {
   }
 
   .neon-bar {
-    top: 60%;
+    display: none;
     left: 65%;
     height: 250px;
     border: 10px solid rgb(214, 211, 42);
@@ -222,10 +221,29 @@ body {
   }
 
   .neon-bar:nth-child(3) {
-    top: 60%;
     height: 250px;
     left: 40%;
 
+  }
+  .banner{
+    margin-top: 20px;
+    width: 350px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(149,163,10,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+    animation: borderRadiusChange 5s infinite;
+  }
+
+  @keyframes borderRadiusChange {
+    0% {
+      border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+    }
+    50% {
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+    100% {
+      border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+    }
   }
 
 }
