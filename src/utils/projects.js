@@ -49,6 +49,14 @@ const projects = [
       url: "https://tictactoepractice.netlify.app/",
       imagen: images.tictactoe,
     },
+    {
+      id: 7,
+      nombre: "User Crud",
+      descripcion: "Sistema de registro de usuarios con CRUD",
+      tecnologias: ["Hook Form", "React", "JavaScript", "CSS", "HTML"],
+      url: "https://usersregistercrud.netlify.app/",
+      imagen: images.userCrud,
+    },
   ];
   
   export default projects;

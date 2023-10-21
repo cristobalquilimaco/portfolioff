@@ -7,6 +7,7 @@ import cvdev from "/public/images/CvDesarrolladorweb.pdf"
 import cohete from "/public/images/cohete.png"
 import ecommercereact from "/public/images/ecommerceract.png"
 import tictactoe from "/public/images/tictactoe.png"
+import userCrud from "/public/images/usercrud.png"
 
 
 
@@ -20,5 +21,6 @@ export default {
     "cohete":cohete,
     "ecommercereact": ecommercereact,
     "tictactoe": tictactoe,
+    "userCrud": userCrud,
 }
 
