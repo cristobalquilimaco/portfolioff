@@ -35,7 +35,7 @@ const projects = [
     },
     {
       id: 5,
-      nombre: "Aplicacion del tiempo",
+      nombre: "Weather App",
       descripcion: "Se crea aplicacion para conocer el estado del tiempo en cualquier parte del mundo",
       tecnologias: ["React", "Redux", "Router"],
       url: "https://openweatherappreactjs.netlify.app/",

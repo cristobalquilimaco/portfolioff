@@ -125,6 +125,10 @@ color: #000000;
   z-index: 0;
 }
 
+.tecnology{
+margin: 1rem;
+}
+
 .t_info {
   display: flex;
   width: 180px;
@@ -140,15 +144,17 @@ color: #000000;
 
 .tec_pp {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   width: 350px;
+  max-width: 300px;
   gap: 1rem;
 }
 
 .tec_info {
   display: flex;
-  flex-direction: row;
-  width: 150px;
+  width: auto;
   height: 30px;
   background-color: var(--color-hover);
   color: black;
@@ -156,6 +162,11 @@ color: #000000;
   justify-content: center;
   align-items: center;
   border-radius: 30px;
+  font-size: 15PX;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+
 }
 
 @media screen and (min-width: 700px) {

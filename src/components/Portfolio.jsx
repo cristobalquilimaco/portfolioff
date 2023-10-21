@@ -16,7 +16,7 @@ const Portfolio = () => {
             <p className='info_page1'>{project.nombre}</p>
             <p className='description_project'>{project.descripcion}</p>
             <div className='text_portfolio portfolio1'>
-              <a className='t_info' href={project.url}><i className='bx bx-link-external'></i>E-commerce</a>
+              <a className='t_info' href={project.url}><i className='bx bx-link-external'></i>Ver proyecto</a>
               <p className='tecnology'>Tecnologias</p>
               <article className='tec_pp'>
                 {project.tecnologias.map((tecnologia, index) => (
