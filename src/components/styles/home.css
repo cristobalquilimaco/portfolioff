@@ -124,6 +124,7 @@ body {
   color: white;
   font-size: 18px;
   max-width: 380px;
+  text-align: justify;
 }
 
 
@@ -191,6 +192,12 @@ body {
 }
 
 @media (min-width: 700px) {
+
+  .description {
+    color: white;
+    font-size: 18px;
+    max-width: 450px;
+  }
 
   .developertext {
     font-size: 30px;
