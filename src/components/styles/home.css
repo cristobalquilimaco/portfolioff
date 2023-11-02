@@ -122,7 +122,8 @@ body {
 
 .description {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
+  
 }
 
 
@@ -142,7 +143,7 @@ body {
 
 .btn {
 
-  width: 200px;
+  width: 180px;
   padding: 0.8rem;
   background-color: transparent;
   cursor: pointer;
@@ -191,6 +192,19 @@ body {
 
 @media (min-width: 700px) {
 
+  .btn {
+    width: 200px;
+  }
+  
+  .description {
+    font-size: 20px;
+    
+  }
+
+  .developertext {
+    font-size: 30px;
+  }
+
   .principal_home {
     background-image: radial-gradient(circle at 35.28% 58.5%, #2a2a29 0, #0d0b16 50%, #000000 100%);
     width: 100%;
@@ -202,6 +216,8 @@ body {
 
 
 @media screen and (max-width: 600px) {
+
+
 
 
   .principal_home {
@@ -245,5 +261,8 @@ body {
       border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
     }
   }
+
+
+
 
 }
