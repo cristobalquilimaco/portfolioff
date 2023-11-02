@@ -123,13 +123,13 @@ body {
 .description {
   color: white;
   font-size: 18px;
-  
+  max-width: 380px;
 }
 
 
 .developertext {
   color: var(--color-x);
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .btn-information {
@@ -191,6 +191,10 @@ body {
 }
 
 @media (min-width: 700px) {
+
+  .developertext {
+    font-size: 30px;
+  }
 
   .btn {
     width: 200px;
