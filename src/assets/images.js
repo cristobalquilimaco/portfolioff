@@ -8,6 +8,7 @@ import cohete from "/public/images/cohete.png"
 import ecommercereact from "/public/images/ecommerceract.png"
 import tictactoe from "/public/images/tictactoe.png"
 import userCrud from "/public/images/usercrud.png"
+import donhoster from "/public/images/donhoster.png"
 
 
 
@@ -22,5 +23,6 @@ export default {
     "ecommercereact": ecommercereact,
     "tictactoe": tictactoe,
     "userCrud": userCrud,
+    "donhoster": donhoster,
 }
 

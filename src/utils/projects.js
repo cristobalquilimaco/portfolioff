@@ -11,6 +11,14 @@ const projects = [
     },
     {
       id: 2,
+      nombre: "DonHoster",
+      descripcion: "Pagina web para venta de servidores dedicados y servicios en la nube",
+      tecnologias: ["React", "JavaScript", "CSS", "HTML", "Router DOM"],
+      url: "https://donhoster.com/",
+      imagen: images.donhoster,
+    },
+    {
+      id: 3,
       nombre: "Proyecto E-commerce",
       descripcion: "E-commerce hecha consumiendo la Api del instituto academlo",
       tecnologias: ["HTML", "JavaScript", "CSS"],
@@ -18,7 +26,7 @@ const projects = [
       imagen: images.ecommerceVanilla,
     },
     {
-      id: 3,
+      id: 4,
       nombre: "Proyecto Pokedex",
       descripcion: "Se consume API de pokemon para hacer una aplicacion tipo catalogo con todos los pokemons",
       tecnologias: ["React", "Redux", "Router"],
@@ -26,7 +34,7 @@ const projects = [
       imagen: images.pokedex,
     },
     {
-      id: 4,
+      id: 5,
       nombre: "Proyecto Rick and Morty",
       descripcion: "Se consume Api de Rick and Morty para obtener una lista con los personajes de la serie",
       tecnologias: ["React", "Redux", "Router"],
@@ -34,7 +42,7 @@ const projects = [
       imagen: images.rickandMorty,
     },
     {
-      id: 5,
+      id: 6,
       nombre: "Weather App",
       descripcion: "Se crea aplicacion para conocer el estado del tiempo en cualquier parte del mundo",
       tecnologias: ["React", "Redux", "Router"],
@@ -42,7 +50,7 @@ const projects = [
       imagen: images.weatherapp,
     },
     {
-      id: 6,
+      id: 7,
       nombre: "Juego tic tac toe",
       descripcion: "Se crea famoso juego tic tac toe, también conocido como la vieja.",
       tecnologias: ["React", "JavaScript", "CSS", "HTML"],
@@ -50,13 +58,14 @@ const projects = [
       imagen: images.tictactoe,
     },
     {
-      id: 7,
+      id: 8,
       nombre: "User Crud",
       descripcion: "Sistema de registro de usuarios con CRUD",
       tecnologias: ["Hook Form", "React", "JavaScript", "CSS", "HTML"],
       url: "https://usersregistercrud.netlify.app/",
       imagen: images.userCrud,
     },
+
   ];
   
   export default projects;
