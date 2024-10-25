@@ -30,7 +30,7 @@ const projects = [
       nombre: "Proyecto Pokedex",
       descripcion: "Se consume API de pokemon para hacer una aplicacion tipo catalogo con todos los pokemons",
       tecnologias: ["React", "Redux", "Router"],
-      url: "https://pokedexcristobal.netlify.app/",
+      url: "https://pokedex3d.netlify.app/#/pokedex",
       imagen: images.pokedex,
     },
     {
