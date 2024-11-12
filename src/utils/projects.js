@@ -65,6 +65,14 @@ const projects = [
       url: "https://usersregistercrud.netlify.app/",
       imagen: images.userCrud,
     },
+    {
+      id: 9,
+      nombre: "MovieApp",
+      descripcion: "Catalogo de películas",
+      tecnologias: ["bootstrap", "React", "JavaScript", "CSS", "HTML"],
+      url: "https://moviewebsiteapp1.netlify.app/",
+      imagen: images.movieapp,
+    },
 
   ];
   
