@@ -55,7 +55,7 @@ const Home = () => {
           )}
           <h2 className='developertext'>Desarrollador Web FullStack</h2>
           <p className='description'>
-            Apasionado del desarrollo frontend, con 29 años de edad, convirtiendo ideas en experiencias digitales impactantes. Busco llevar la usabilidad y la innovación al siguiente nivel. ¡Listo para enfrentar nuevos desafíos juntos! 💻🚀 #FrontendDev
+            Apasionado del desarrollo frontend, con 30 años de edad, convirtiendo ideas en experiencias digitales impactantes. Busco llevar la usabilidad y la innovación al siguiente nivel. ¡Listo para enfrentar nuevos desafíos juntos! 💻🚀 #FrontendDev
           </p>
           <div className='btn_principal btn-information'>
             <Link to="/aboutme"><button className='btn btn_home2'>More about me</button></Link>
