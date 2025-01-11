@@ -89,6 +89,11 @@ return () => {
                                 <p className='infocompany'>Operador de procesos publicitarios</p>
                                 <p className='infocompany'>Procesos de fabricación de artículos publicitarios destinados a la exhibicion y promoción de marcas y productos</p>
                             </div>
+                            <div className='posts'>
+                                <p className='company'>Trendix</p>
+                                <p className='infocompany'>Operador de procesos publicitarios</p>
+                                <p className='infocompany'>Procesos de fabricación de artículos publicitarios destinados a la exhibicion y promoción de marcas y productos</p>
+                            </div>
                         </div>
                         <div className='work_information'>
                             <div className='date'>
@@ -96,7 +101,7 @@ return () => {
                                 <p className='years_work'>2022- 2022</p>
                             </div>
                             <div className='posts'>
-                                <p className='company'>Almacontact</p>
+                                <p className='company'>Axa Partners</p>
                                 <p className='infocompany'>Ejecutivo de atención al cliente</p>
                                 <p className='infocompany'>Atención al cliente y ventas de productos y servicios de telefonía fija, móvil e internet de comcel Colombia.</p>
                                 <article className='container_animation'>
