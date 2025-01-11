@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import images from '../assets/images'
 import "../components/styles/aboutMe.css"
-import CvDesarrolladorweb from "/public/images/CvDesarrolladorweb.pdf"
+import cvdev from "/public/images/CVCristobalQuilimaco.pdf"
 
 
 
@@ -36,7 +36,7 @@ return () => {
 
 
     const openNewWindow = () => {
-        window.open(CvDesarrolladorweb, '_blank');
+        window.open(cvdev, '_blank');
     };
 
 

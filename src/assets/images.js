@@ -19,7 +19,7 @@ export default {
     "ecommerceVanilla": ecommerceVanilla,
     "rickandMorty": rickandMorty,
     "weatherapp": weatherapp,
-    "cvdev":cvdev,
+    "cvdev": cvdev,
     "cohete":cohete,
     "ecommercereact": ecommercereact,
     "tictactoe": tictactoe,
