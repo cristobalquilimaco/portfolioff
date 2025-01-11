@@ -130,8 +130,8 @@ return () => {
                                 <div className='posts'>
                                 <a href="https://certificates.academlo.com/en/verify/27615630700143"><p className='certificate_info'>Desarrollador web Full Stack</p></a>
                                 <a href="https://certificates.academlo.com/en/verify/42014531296913"><p className='certificate_info'>Back-End Development with Node.js</p></a>
-                                <a href="https://certificates.academlo.com/en/verify/54402045361468"><p className='certificate_info'>Desarrollo de Aplicaciones Web con React</p></a>
-                                <a href="https://certificates.academlo.com/en/verify/82888452818670"><p className='certificate_info'>Fundamentos de Desarrollo Web</p></a>
+                                <a href="https://www.linkedin.com/learning/certificates/7f07da90e8060e2fdd7b6be2685ccca9fdaa91cd6de3227a93af625b56105524?trk=share_certificate"><p className='certificate_info'>Python Avanzado 2</p></a>
+                                <a href="https://www.linkedin.com/learning/certificates/4c5c4249d3e21050373686eadda31f11a6f182148c85732ea85b4ed7b2e1e19f?trk=share_certificate"><p className='certificate_info'>Python Avanzado</p></a>
                             </div>
                         </div>
                         <div className='work_information'>
