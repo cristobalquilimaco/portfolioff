@@ -85,13 +85,17 @@ return () => {
                                 <p className='years_work'>2022- 2023</p>
                             </div>
                             <div className='posts'>
-                                <p className='company'>Trendix</p>
-                                <p className='infocompany'>Operador de procesos publicitarios</p>
-                                <p className='infocompany'>Procesos de fabricación de artículos publicitarios destinados a la exhibicion y promoción de marcas y productos</p>
+                                <p className='company'>Azteca International</p>
+                                <p className='infocompany'>Diseñador Web</p>
+                                <p className='infocompany'>Diseño y desarrollo de páginas web utilizando wordpress con elementor, optimizacion de paginas web, manejo del seo de cada página web, manejo de semrush y entrega de reportes de posicionamiento en motores de búsquedas</p>
+                            </div>
+                            <div className='date'>
+                                <i className='bx bx-play'></i>
+                                <p className='years_work'>Oct 2024</p>
                             </div>
                             <div className='posts'>
                                 <p className='company'>NetcroHosting</p>
-                                <p className='infocompany'>Desarrollador web Freelance</p>
+                                <p className='infocompany'>Desarrollador Web Freelance</p>
                                 <p className='infocompany'>Diseño y desarrollo de páginas web utilizando HTML, CSS y JavaScript, instalación y personalización de WordPress, optimización de sitios web, manejo de SEO y generación de reportes de posicionamiento en motores de búsqueda.</p>
                             </div>
                         </div>
@@ -116,6 +120,20 @@ return () => {
                     </div> 
                     <div className={`fade-in3 fade-in4 exp_tex_info ${elements[0].isVisible ? 'visible' : ''}`}>
                         <h1 className='experience_text'>EDUCACIÓN</h1>
+                        <div className='work_information'>
+                            <div className='date'>
+                                <i className='bx bx-play'></i>
+                                <p className='years_work'>Año - 2024</p>
+                            </div>
+                            
+                                <p className='company'>Certificaciones</p>
+                                <div className='posts'>
+                                <a href="https://certificates.academlo.com/en/verify/27615630700143"><p className='certificate_info'>Desarrollador web Full Stack</p></a>
+                                <a href="https://certificates.academlo.com/en/verify/42014531296913"><p className='certificate_info'>Back-End Development with Node.js</p></a>
+                                <a href="https://certificates.academlo.com/en/verify/54402045361468"><p className='certificate_info'>Desarrollo de Aplicaciones Web con React</p></a>
+                                <a href="https://certificates.academlo.com/en/verify/82888452818670"><p className='certificate_info'>Fundamentos de Desarrollo Web</p></a>
+                            </div>
+                        </div>
                         <div className='work_information'>
                             <div className='date'>
                                 <i className='bx bx-play'></i>

@@ -572,7 +572,7 @@ h5 {
   .line_down {
     position: absolute;
     width: 1px;
-    height: 650px;
+    height: 800px;
     background-color: var(--color-hover);
     overflow: hidden;
   }
