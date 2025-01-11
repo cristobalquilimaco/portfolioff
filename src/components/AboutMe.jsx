@@ -90,7 +90,7 @@ return () => {
                                 <p className='infocompany'>Procesos de fabricación de artículos publicitarios destinados a la exhibicion y promoción de marcas y productos</p>
                             </div>
                             <div className='posts'>
-                                <p className='company'>Trendix</p>
+                                <p className='company'>NetcroHosting</p>
                                 <p className='infocompany'>Operador de procesos publicitarios</p>
                                 <p className='infocompany'>Procesos de fabricación de artículos publicitarios destinados a la exhibicion y promoción de marcas y productos</p>
                             </div>
@@ -98,12 +98,12 @@ return () => {
                         <div className='work_information'>
                             <div className='date'>
                                 <i className='bx bx-play'></i>
-                                <p className='years_work'>2022- 2022</p>
+                                <p className='years_work'>Feb 2024- Oct 2024</p>
                             </div>
                             <div className='posts'>
                                 <p className='company'>Axa Partners</p>
-                                <p className='infocompany'>Ejecutivo de atención al cliente</p>
-                                <p className='infocompany'>Atención al cliente y ventas de productos y servicios de telefonía fija, móvil e internet de comcel Colombia.</p>
+                                <p className='infocompany'>Asesor de Servicios</p>
+                                <p className='infocompany'>En mi rol actual como Agente de Servicios en misión para AXA Colpatria, me dedico a realizar un seguimiento preciso de los requerimientos que los asegurados plantean en el tiempo oportuno y de manera correcta.</p>
                                 <article className='container_animation'>
                                     <img className='img_animado' src={images.cohete} alt="" />
                                     <i className='bx bxs-star star_1'></i>
