@@ -91,8 +91,8 @@ return () => {
                             </div>
                             <div className='posts'>
                                 <p className='company'>NetcroHosting</p>
-                                <p className='infocompany'>Operador de procesos publicitarios</p>
-                                <p className='infocompany'>Procesos de fabricación de artículos publicitarios destinados a la exhibicion y promoción de marcas y productos</p>
+                                <p className='infocompany'>Desarrollador web Freelance</p>
+                                <p className='infocompany'>Diseño y desarrollo de páginas web utilizando HTML, CSS y JavaScript, instalación y personalización de WordPress, optimización de sitios web, manejo de SEO y generación de reportes de posicionamiento en motores de búsqueda.</p>
                             </div>
                         </div>
                         <div className='work_information'>
